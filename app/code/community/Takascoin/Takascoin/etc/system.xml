@@ -9,7 +9,7 @@
 					<show_in_default>1</show_in_default>
 					<show_in_website>1</show_in_website>
 					<show_in_store>0</show_in_store>
-                    <comment><![CDATA[<b>Accept Digital Currencies</b><p>Just type in your receiving bitcoin address to begin receiving payments in Bitcoin.</p>]]></comment>
+                    <comment><![CDATA[<b>Accept Digital Currencies</b><p>Just type in your Takascoin email to begin receiving payments in Bitcoin.</p>]]></comment>
 					<fields>
 						<active translate="label">
 							<label>Enabled</label>
@@ -42,17 +42,6 @@
 								Get informed with an email for payments
 							</comment>
 						</email>
-
-						<bitcoin_address translate="label">
-							<label>Bitcoin Address</label>
-							<frontend_type>text</frontend_type>
-							<validate>validate-alphanum</validate>
-							<sort_order>3</sort_order>
-							<show_in_default>1</show_in_default>
-							<show_in_website>1</show_in_website>
-							<show_in_store>0</show_in_store>
-						</bitcoin_address>
-
 					</fields>
 				</Takascoin>
 			</groups>
